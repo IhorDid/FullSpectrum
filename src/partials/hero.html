@@ -1,4 +1,4 @@
-<section class="hero">
+<section class="hero-section">
   <div class="container">
     <h1 class="hero-title">
       Discover the magic of <span class="span-hero-text">photography</span> in
@@ -9,6 +9,86 @@
       learn the basics of composition, master technical skills, translate your
       unique ideas.
     </p>
+    <div class="hero-img-text">
+      <div class="hero-img">
+        <ul class="hero-item">
+          <li class="hero-list">
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ../img/hero/hero-3_desk@1x.png 1x,
+                ../img/hero/hero-4_desk@2x.png 2x
+              "
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ../img/hero/hero-13_mob@1x.png 1x,
+                ../img/hero/hero-14_mob@2x.png 2x
+              "
+            />
+            <img src="../img/hero/hero-3_desk@1x.png" alt="Rectangle" />
+          </li>
+          <li class="hero-list">
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ../img/hero/hero-1_desk@1x.png 1x,
+                ../img/hero/hero-2_desk@2x.png 2x
+              "
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ../img/hero/hero-15_mob@1x.png 1x,
+                ../img/hero/hero-16_mob@2x.png 2x
+              "
+            />
+            <img src="../img/hero/hero-1_desk@1x.png" alt="man's face" />
+          </li>
+          <li class="hero-list">
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ../img/hero/hero-5_desk@1x.png 1x,
+                ../img/hero/hero-6_desk@2x.png 2x
+              "
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ../img/hero/hero-21_mob@1x.png 1x,
+                ../img/hero/hero-22_mob@2x.png 2x
+              "
+            />
+            <img
+              src="../img/hero/hero-5_desk@1x.png"
+              alt="Rectangle"
+              width="54"
+            />
+          </li>
+        </ul>
+        <p>
+          <a class="hero-linl-reviews" href="#reviews">Our happy students</a>
+        </p>
+        <svg class="icon-arrow" width="20" height="20">
+          <use href="../img/sprite.svg#icon-arrow"></use>
+        </svg>
+      </div>
+      <div class="icon-text">
+        <svg class="icon-hero-star" width="20" height="20">
+          <use href="../img/sprite.svg#icon-star-hero"></use>
+        </svg>
+        <ul class="item-star">
+          <li class="list-star">
+            <p class="hero-text-shadow">Reviews</p>
+          </li>
+          <li>
+            <p class="hero-text">+1500</p>
+          </li>
+        </ul>
+      </div>
+    </div>
     <picture>
       <source
         media="(min-width: 1280px)"
@@ -37,75 +117,5 @@
         loading="lazy"
       />
     </picture>
-    <div class="hero-img">
-      <ul class="hero-item">
-        <li class="hero-list">
-          <source
-            media="(min-width: 1280px)"
-            srcset="
-              ../img/hero/hero-3_desk@1x.png 1x,
-              ../img/hero/hero-4_desk@2x.png 2x
-            "
-          />
-          <source
-            media="(max-width: 767px)"
-            srcset="
-              ../img/hero/hero-13_mob@1x.png 1x,
-              ../img/hero/hero-14_mob@2x.png 2x
-            "
-          />
-          <img src="../img/hero/hero-3_desk@1x.png" alt="Rectangle" />
-        </li>
-        <li class="hero-list">
-          <source
-            media="(min-width: 1280px)"
-            srcset="
-              ../img/hero/hero-1_desk@1x.png 1x,
-              ../img/hero/hero-2_desk@2x.png 2x
-            "
-          />
-          <source
-            media="(max-width: 767px)"
-            srcset="
-              ../img/hero/hero-15_mob@1x.png 1x,
-              ../img/hero/hero-16_mob@2x.png 2x
-            "
-          />
-          <img src="../img/hero/hero-1_desk@1x.png" alt="man's face" />
-        </li>
-        <li class="hero-list">
-          <source
-            media="(min-width: 1280px)"
-            srcset="
-              ../img/hero/hero-5_desk@1x.png 1x,
-              ../img/hero/hero-6_desk@2x.png 2x
-            "
-          />
-          <source
-            media="(max-width: 767px)"
-            srcset="
-              ../img/hero/hero-21_mob@1x.png 1x,
-              ../img/hero/hero-22_mob@2x.png 2x
-            "
-          />
-          <img
-            src="../img/hero/hero-5_desk@1x.png"
-            alt="Rectangle"
-            width="54"
-          />
-        </li>
-      </ul>
-      <p><a class="hero-linl-reviews" href="#reviews">Our happy students</a></p>
-      <svg class="icon-arrow" width="20" height="20">
-        <use href="../img/sprite.svg#icon-arrow"></use>
-      </svg>
-    </div>
-    <div class="icon-text">
-      <svg class="icon" width="20" height="20">
-        <use href="../img/sprite.svg#icon-star-hero"></use>
-      </svg>
-      <p class="hero-text">Reviews</p>
-      <p class="hero-text">+1500</p>
-    </div>
   </div>
 </section>

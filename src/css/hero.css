@@ -1,0 +1,63 @@
+.hero-section {
+    padding: 20px; 
+    margin: auto;
+}
+
+.container {}
+
+.hero-title {
+color: #FFF;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.span-hero-text {
+    color: #BEA69E;
+        font-family: DM Sans;
+        font-size: 40px;
+        font-style: italic;
+}
+
+.hero-text {
+    padding-top: 20px;
+color: #FFF;
+font-size: 14px;
+}
+
+hero-img-text {display: inline-flex;
+    height: 84px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.hero-img {display: flex;
+    width: 109px;
+    align-items: center;
+    align-content: center;
+    gap: 4px;
+    flex-wrap: wrap;}
+
+.hero-item {
+    padding-top: 40px;
+    display: flex;
+
+}
+
+.hero-list {}
+
+.hero-linl-reviews {}
+
+.icon-arrow {}
+
+.icon-text {
+    
+}
+.item-star {}
+
+.list-star {}
+
+.icon-hero-star {
+    border-radius: 100px;
+    background: #BEA69E;}
