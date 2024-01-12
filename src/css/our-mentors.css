@@ -14,12 +14,7 @@
 }
 .mentors-img {
   border-radius: 200px;
-  background: var(
-    --avatar-user-square-brianna-ware-neutral-background,
-    url(<path-to-image>),
-    lightgray 50% / cover no-repeat,
-    #e0e0e0
-  );
+  background-color: #e0e0e0;
 }
 .mentor-wrapper {
 }
