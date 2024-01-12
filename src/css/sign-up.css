@@ -1,1 +1,96 @@
+@media screen and (max-width: 1279.98px) {
+  .sign-img-wrap {
+    display: none;
+  }
+}
 
+/* MOBILE */
+.section.sign-up {
+  padding-bottom: 80px;
+}
+.title-sign-up {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+
+  margin-bottom: 20px;
+}
+.title-accent {
+  color: #bea69e;
+}
+.sign-up-text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+
+  width: 295px;
+
+  margin-bottom: 40px;
+}
+.form-input {
+  min-width: 100%;
+  max-width: 335px;
+  height: 46px;
+
+  padding: 14px 18px;
+
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.29;
+  opacity: 0.7;
+}
+
+.form-input:not(:last-child) {
+  margin-bottom: 8px;
+}
+.textarea {
+  height: 112px;
+  resize: none;
+}
+.form-input::placeholder {
+  color: currentColor;
+}
+.form-btn {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 14px 126px;
+
+  min-width: 100%;
+  max-width: 335px;
+
+  border-radius: 12px;
+  background-color: #fff;
+  color: var(--black, #121212);
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+.form-text {
+  max-width: 335px;
+
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 1.33;
+}
+.form-link {
+  display: inline;
+  text-decoration: underline;
+}
+
+/* TABLET */
+.sign-up {
+}
+.sign-form-wrap {
+}
+.sign-up-form {
+}
+
+/* DESKTOP */
+.sign-img {
+}
