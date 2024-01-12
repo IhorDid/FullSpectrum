@@ -1,7 +1,5 @@
 .mentors {
 }
-.section {
-}
 .container {
 }
 .mentors-title {
@@ -15,6 +13,10 @@
 .mentors-img {
   border-radius: 200px;
   background-color: #e0e0e0;
+  overflow: hidden;
+  background-size: cover;
+  border: none;
+  outline: none;
 }
 .mentor-wrapper {
 }
