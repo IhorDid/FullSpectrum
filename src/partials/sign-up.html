@@ -12,12 +12,16 @@
           name="username"
           class="form-input"
           placeholder="Enter your name"
+          pattern="(?=.*[a-z]).{2,}"
+          title="The name must contain at least two Latin letters"
         />
         <input
           type="email"
           name="email"
           class="form-input"
           placeholder="Enter your email"
+          pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+          title="Invalid email address"
         />
         <textarea
           name="user-comment"
