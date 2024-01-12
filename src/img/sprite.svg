@@ -6,9 +6,9 @@
     <symbol id="icon-arrow" viewBox="0 0 64 32">
       <path fill="#fff" d="M44.444 0 64 15.396 44.444 30.792V18.063H0V12.73h44.444V.001z" style="fill:var(--color1, #fff)"/>
     </symbol>
-    <symbol id="icon-star-hero" viewBox="0 0 34 32">
+    <!-- <symbol id="icon-star-hero" viewBox="0 0 34 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.526" d="m16.842 2.807 4.337 8.786 9.698 1.418-7.018 6.835 1.656 9.656-8.674-4.562-8.674 4.562 1.656-9.656-7.018-6.835 9.698-1.418 4.337-8.786z"/>
-    </symbol>
+    </symbol> -->
     <symbol id="icon-arrow-up" viewBox="0 0 32 32">
       <path fill="none" stroke="#777" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08" d="M8 24 24 8M13.333 8H24v10.667" style="stroke:var(--color2, #777)"/>
     </symbol>
@@ -24,6 +24,9 @@
     </symbol>
     <symbol id="icon-star-reviews" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="m16 3.2 3.955 7.899 8.845 1.274-6.4 6.145 1.51 8.681L16 23.098l-7.91 4.101 1.51-8.681-6.4-6.145 8.845-1.274L16 3.2z"/>
+    </symbol>
+    <symbol id="icon-star-hero" viewBox="0 0 34 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.526" d="m16.842 2.807 4.337 8.786 9.698 1.418-7.018 6.835 1.656 9.656-8.674-4.562-8.674 4.562 1.656-9.656-7.018-6.835 9.698-1.418 4.337-8.786z"/>
     </symbol>
   </defs>
 </svg>
