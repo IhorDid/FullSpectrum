@@ -23,6 +23,10 @@ button {
   cursor: pointer;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .container {
   max-width: 375px;
   padding-left: 20px;
