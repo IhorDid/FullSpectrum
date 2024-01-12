@@ -84,13 +84,55 @@
 }
 
 /* TABLET */
-.sign-up {
-}
-.sign-form-wrap {
-}
-.sign-up-form {
+@media screen and (min-width: 768px) {
+  .section.sign-up {
+    padding-bottom: 100px;
+  }
+  .title-sign-up {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.13;
+    letter-spacing: -0.04em;
+  }
+  .sign-up-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+
+    width: 480px;
+  }
+  .form-input {
+    min-width: 480px;
+    height: 60px;
+
+    padding: 20px 18px;
+
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .form-input:not(:last-child) {
+    margin-bottom: 14px;
+  }
+  .textarea {
+    height: 119px;
+  }
+
+  .form-btn {
+    padding: 16px 216px;
+
+    min-width: 479px;
+
+    color: var(--black, #121212);
+    font-size: 18px;
+    line-height: 1.56;
+  }
+  .form-text {
+    max-width: 480px;
+
+    font-size: 14px;
+    line-height: 1.29;
+  }
 }
 
 /* DESKTOP */
-.sign-img {
-}
