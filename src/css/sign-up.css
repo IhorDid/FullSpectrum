@@ -115,7 +115,7 @@
     margin-bottom: 14px;
   }
   .textarea {
-    height: 119px;
+    height: 120px;
   }
 
   .form-btn {
@@ -136,3 +136,40 @@
 }
 
 /* DESKTOP */
+@media screen and (min-width: 1280px) {
+  .section.sign-up {
+    padding-bottom: 150px;
+  }
+  .container.sign-up {
+    display: flex;
+    gap: 60px;
+  }
+  .sign-up-form {
+    width: 480px;
+  }
+  .sign-img-wrap {
+    width: 540px;
+    height: 540px;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+  }
+  .sign-img-lens {
+    width: 180px;
+    height: 288px;
+    padding: 76px 19px 62px;
+
+    flex-shrink: 0;
+
+    border-radius: 1000px;
+    background-color: #bea69e;
+  }
+  .sign-img-camera {
+    width: 340px;
+    height: 540px;
+    padding: 156px 50px 88px;
+    border-radius: 1000px;
+    background-color: #1d1d1d;
+    flex-shrink: 0;
+  }
+}
