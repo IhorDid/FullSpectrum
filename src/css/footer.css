@@ -11,8 +11,8 @@ address{
 
 .footer{
     background-image: url(../img/footer/footer-3_mob@1x.png);
-    /* background-repeat: no-repeat;
-    background-position: center; */
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 40px 0 20px;
 }
 .footer-container{
@@ -23,8 +23,7 @@ address{
     margin-bottom: 40px;
 }
 .footer-logo{
-    display: inline-block;
-    align-items: flex-start;
+    display: inline-flex;
     padding: 0;
     margin-bottom: 16px;
     color: #FFFFFF;
@@ -78,6 +77,7 @@ address{
 .input-form{
     width: 100%;
     height: 60px;
+    border: none;
     border-radius: 12px;
     background-color: #FFF;
 
@@ -101,6 +101,7 @@ address{
 .footer-privacy{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 
     color: #FFF;
     font-family: DM Sans;
@@ -113,7 +114,6 @@ address{
 @media only screen and (min-width: 768px) {
     .footer{
         background-image: url(../img/footer/footer-5_tab@1x.png);
-        padding: 50px 32px 25px;
     }
     .footer-container{
         display: flex;
@@ -137,11 +137,12 @@ address{
 @media only screen and (min-width: 1280px) {
    .footer{
     background-image: url(../img/footer/footer-1_desk@1x.png);
-    padding: 50px 100px 25px;
   }
   .footer-container{
     display: flex;
-  }
+    flex-direction: row;
+    flex-wrap: wrap;
+}
   .container-footer{
     margin-right: 284px;
   }
@@ -149,6 +150,9 @@ address{
     display: flex;
     column-gap: 50px;
     margin-right: 137px;
+} 
+ .label-form{
+    width: 216px;
 }
 
 }
