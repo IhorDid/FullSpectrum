@@ -20,7 +20,7 @@
 
     
     <script type="module" crossorigin src="/FullSpectrum/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/FullSpectrum/assets/index-afc8d7b9.css">
+    <link rel="stylesheet" href="/FullSpectrum/assets/index-e7481fe0.css">
   </head>
   <body>
     <!-- Кирилл -->
@@ -348,9 +348,9 @@
 
       <!-- Фаина -->
       <section class="section sign-up">
-  <div class="container">
+  <div class="container sign-up">
     <div class="sign-form-wrap">
-      <h2 class="section-title sign-up">Sign<span>Up</span></h2>
+      <h2 class="title-sign-up">Sign <span class="title-accent">Up</span></h2>
       <p class="sign-up-text">
         Please use the form below to contact us. Enter your name, email, and
         message and we'll get back to you shortly.
@@ -361,15 +361,20 @@
           name="username"
           class="form-input"
           placeholder="Enter your name"
+          pattern="(?=.*[a-z]).{2,}"
+          title="The name must contain at least two Latin letters"
         />
         <input
           type="email"
           name="email"
           class="form-input"
           placeholder="Enter your email"
+          pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+          title="Invalid email address"
         />
         <textarea
           name="user-comment"
+          rows="6"
           class="form-input textarea"
           placeholder="Message"
         ></textarea>
@@ -383,26 +388,20 @@
     </div>
     <div class="sign-img-wrap">
       <img
-        src="./img/sign/sign-1_desk@1x.jpg"
-        srcset="
-          ./img/sign/sign-1_desk@1x.jpg 1x,
-          ./img/sign/sign-2_desk@2x.jpg 2x
-        "
+        src="/FullSpectrum/assets/sign-1_desk@1x-4c9a97c5.png"
+        srcset="/FullSpectrum/assets/sign-1_desk@1x-4c9a97c5.png 1x, /FullSpectrum/assets/sign-2_desk@2x-f8dafb82.png 2x"
         alt="Camera lens"
-        width="164"
-        height="154"
-        class="sign-img"
+        width="150"
+        height="142"
+        class="sign-img-lens"
       />
       <img
-        src="./img/sign/sign-3_desk@1x.jpg"
-        srcset="
-          ./img/sign/sign-3_desk@1x.jpg 1x,
-          ./img/sign/sign-4_desk@2x.jpg 2x
-        "
+        src="/FullSpectrum/assets/sign-3_desk@1x-179df22d.png"
+        srcset="/FullSpectrum/assets/sign-3_desk@1x-179df22d.png 1x, /FullSpectrum/assets/sign-4_desk@2x-30a0498d.png 2x"
         alt="Camera Nikon"
-        width="254"
-        height="314"
-        class="sign-img"
+        width="240"
+        height="296"
+        class="sign-img-camera"
       />
     </div>
   </div>
