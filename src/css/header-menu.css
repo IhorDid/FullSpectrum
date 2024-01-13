@@ -1,0 +1,62 @@
+
+/* mobile-menu for project 14 */
+.btn-close-menu{
+    display: block;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: auto;
+    width: 32px;
+    height: 32px;
+    color: #121212;
+  }
+  .mobile-menu{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 218px;
+    background-color: #BEA69E;
+  
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .is-hidden{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .mob-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    margin-top: 128px;
+    margin-left: 20px;
+    margin-bottom: 123px;
+  
+    color: #121212;
+    font-family: DM Sans;
+    font-size: 14px;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .mob-menu-link-about{
+    font-weight: 700;
+  }
+  
+
+  @media only screen and (min-width: 768px) {
+    .btn-close-menu{
+      margin-right: 32px;
+    }
+    .mobile-menu {
+      width: 480px;
+    }
+    .mob-menu-list{
+      gap: 28px 0;
+      margin-top: 172px;
+      margin-left: 64px;
+      margin-bottom: 114px;
+    }
+  }

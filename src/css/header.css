@@ -109,7 +109,7 @@
   }
 }
 
-.burger-btn {
+.menu-open-btn {
   display: flex;
 
   justify-content: center;
@@ -117,12 +117,12 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .burger-btn {
+  .menu-open-btn {
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .burger-btn {
+  .menu-open-btn {
     display: none;
   }
 }
