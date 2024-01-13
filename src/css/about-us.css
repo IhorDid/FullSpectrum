@@ -1,5 +1,5 @@
 .about-us {
-   margin: 80px 0;
+  margin: 80px 0;
 }
 @media only screen and (min-width: 768px) {
   .about-us {
@@ -12,11 +12,11 @@
     margin: 150px 0;
   }
 }
-@media only screen and (min-width: 1280px){
-.container.about-us {
-   display: flex;
-   columns: row;
-}
+@media only screen and (min-width: 1280px) {
+  .container.about-us {
+    display: flex;
+    columns: row;
+  }
 }
 .about-us-title {
   padding-left: 0;
@@ -27,67 +27,61 @@
   letter-spacing: -0.04em;
 }
 @media only screen and (min-width: 768px) {
-.about-us-title {
+  .about-us-title {
     margin-bottom: 50px;
     font-size: 48px;
     line-height: 1.13em;
   }
 }
 .about-us-accent {
-   color:#BEA69E;
+  color: #bea69e;
 }
-.about-us-pic{
-   border-radius: 1000px;
-   margin-bottom: 40px;
-   width: 100%;
-   max-width: 335px;
-  
+.about-us-pic {
+  border-radius: 1000px;
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 335px;
 }
 @media only screen and (min-width: 768px) {
-   .about-us-pic{
-      max-width: 704px;
-   }
+  .about-us-pic {
+    max-width: 704px;
+  }
 }
 @media only screen and (min-width: 1280px) {
-   .about-us-pic{
-      max-width: 488px;
-   }
+  .about-us-pic {
+    max-width: 488px;
+  }
 }
 .description {
-   display: inline-block;
-
-   
+  display: inline-block;
 }
-.description:first-child{
-   padding-bottom: 20px;
+.description:first-child {
+  padding-bottom: 20px;
 }
 @media only screen and (min-width: 768px) {
-   .description {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 40px;
-   }
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
 }
 
-@media only screen and (min-width: 1280px){
-
+@media only screen and (min-width: 1280px) {
 }
 
 .description-about-us {
-color:  #FFF;
-font-family: DM Sans;
-font-size: 14px;
-line-height: 1.29; /* 128.571% */
-letter-spacing: -0.02em;
+  font-size: 14px;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.02em;
 }
 @media only screen and (min-width: 768px) {
-   .description-about-us {
-      font-size: 16px;
-      line-height: 1.25; /* 125% */
-   }
+  .description-about-us {
+    font-size: 16px;
+    line-height: 1.25; /* 125% */
+  }
 }
 
-.description-about-us:first-child{
-   padding-bottom: 20px;
+.description-about-us:first-child {
+  padding-bottom: 20px;
 }
