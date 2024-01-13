@@ -20,7 +20,7 @@
 
     
     <script type="module" crossorigin src="/FullSpectrum/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/FullSpectrum/assets/index-e7481fe0.css">
+    <link rel="stylesheet" href="/FullSpectrum/assets/index-c69cb88f.css">
   </head>
   <body>
     <!-- Кирилл -->
@@ -56,7 +56,7 @@
         </svg>
       </a>
 
-      <button class="burger-btn">
+      <button type="button" class="menu-open-btn" data-menu-open>
         <svg width="32" height="22">
           <use href="../img/sprite.svg#icon-menu-nav"></use>
         </svg>
@@ -67,6 +67,38 @@
 </header>
 
     
+<div class="mobile-menu" data-menu>
+    <button type="button" class="btn-close-menu" data-menu-close>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <path d="M24 8L8 24" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M8 8L24 24" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+    <ul class="mob-menu-list">
+      <li>
+        <a href="#About us" class="mob-menu-link-about">About us</a>
+      </li>
+      <li>
+        <a href="#Our courses" class="mob-menu-link">Our courses</a>
+      </li>
+      <li>
+        <a href="#Our mentors" class="mob-menu-link">Our mentors</a>
+      </li>
+      <li>
+        <a href="#Reviews" class="mob-menu-link">Reviews</a>
+      </li>
+      <li>
+        <a href="#Contacts" class="mob-menu-link">Contacts</a>
+      </li>
+    </ul>
+  
+    <img 
+      srcset="../img/hero/hero-17_mob@1x.jpg" 
+      src=""
+      alt="photo-camera"
+      width="329"/>
+  
+  </div>
 
     <!-- Loads the specified .html file -->
 
