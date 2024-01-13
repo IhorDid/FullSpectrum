@@ -1,0 +1,133 @@
+.hero-section {}
+   
+
+.hero-container {display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: #1d1d1d;
+    padding: 40px 20px 0;
+
+}
+
+.hero-title {
+color: #FFF;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.span-hero-text {
+    color: #BEA69E;
+        font-family: DM Sans;
+        font-size: 40px;
+        font-style: italic;
+}
+
+.hero-text {
+color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.64px;
+    margin-bottom: 40px;
+}
+
+.img-man-camera {
+
+}
+
+.hero-img-text {display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    flex-direction: row;
+    margin-bottom: 40px; }
+
+.hero-img {display: flex;
+flex-direction: column;
+gap: 4px;}
+
+.hero-item {
+position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-right: 1px;
+    list-style-type: none;
+    margin: 0;
+}
+.hero-list:nth-child(2) {margin-left: -12px;
+    z-index: 1;}
+ .hero-list:nth-child(3) {
+            margin-left: -12px;
+            z-index: 0; }
+.hero-list {
+z-index: 2;
+}
+.hero-avatar {
+background-color: #1d1d1d;
+    border-radius: 100px;
+}
+.link-arrow {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    
+}
+.hero-linl-reviews {
+    color: #FFF;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.56px;
+}
+
+.Our-happy {
+    width: 67px;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -.04em;
+}
+.icon-arrow {
+   
+}
+
+.icon-text {display: flex;
+  flex-direction: row;
+
+}
+    
+.hero-texst-rev {display: flex;
+    flex-direction: column;
+    gap: 4px; }
+
+.item-star {
+    
+}
+
+.list-star {}
+
+.hero-text-shadow {
+    color: rgba(255, 255, 255, 0.50);
+        font-family: DM Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.56px;
+}
+
+.icon-hero-star {
+fill: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #bea69e;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    stroke-width: 1.5px;
+    stroke: #121212;}
