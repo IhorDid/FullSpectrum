@@ -68,12 +68,12 @@
             />
           </li>
         </ul>
-        <p>
+        <div class="link-arrow">
           <a class="hero-linl-reviews" href="#reviews">Our happy students</a>
-        </p>
-        <svg class="icon-arrow" width="20" height="20">
-          <use href="../img/sprite.svg#icon-arrow"></use>
-        </svg>
+          <svg class="icon-arrow" width="18" height="9">
+            <use href="../img/sprite.svg#icon-arrow"></use>
+          </svg>
+        </div>
       </div>
       <div class="icon-text">
         <svg class="icon-hero-star" width="20" height="20">
@@ -89,33 +89,36 @@
         </ul>
       </div>
     </div>
-    <picture>
-      <source
-        media="(min-width: 1280px)"
-        srcset="
-          ../img/hero/hero-7_desk@1x.png 1x,
-          ../img/hero/hero-8_desk@2x.png 2x
-        "
-      />
-      <source
-        media="(min-width: 768px)"
-        srcset="
-          ../img/hero/hero-11_tab@1x.png 1x,
-          ../img/hero/hero-12_tab@2x.png 2x
-        "
-      />
-      <source
-        media="(max-width: 767px)"
-        srcset="
-          ../img/hero/hero-9_mob@1x.png  1x,
-          ../img/hero/hero-10_mob@2x.png 2x
-        "
-      />
-      <img
-        src="../img/hero/hero-7_desk@1x.png"
-        alt="man with camera"
-        loading="lazy"
-      />
-    </picture>
+    <div class="man-camera">
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ../img/hero/hero-7_desk@1x.png 1x,
+            ../img/hero/hero-8_desk@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ../img/hero/hero-11_tab@1x.png 1x,
+            ../img/hero/hero-12_tab@2x.png 2x
+          "
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ../img/hero/hero-9_mob@1x.png  1x,
+            ../img/hero/hero-10_mob@2x.png 2x
+          "
+        />
+        <img
+          class="img-man-camera"
+          src="../img/hero/hero-7_desk@1x.png"
+          alt="man with camera"
+          loading="lazy"
+        />
+      </picture>
+    </div>
   </div>
 </section>
