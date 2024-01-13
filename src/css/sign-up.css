@@ -6,7 +6,8 @@
 
 /* MOBILE */
 .section.sign-up {
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .title-sign-up {
   color: #fff;
@@ -86,7 +87,8 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
   .section.sign-up {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
   .title-sign-up {
     font-size: 48px;
@@ -138,7 +140,8 @@
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
   .section.sign-up {
-    padding-bottom: 150px;
+    padding-bottom: 75px;
+    padding-top: 75px;
   }
   .container.sign-up {
     display: flex;
