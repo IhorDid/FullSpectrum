@@ -1,0 +1,103 @@
+.hero-section {
+    padding: 20px; 
+    margin: auto;
+}
+
+.container {}
+
+.hero-title {
+color: #FFF;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.span-hero-text {
+    color: #BEA69E;
+        font-family: DM Sans;
+        font-size: 40px;
+        font-style: italic;
+}
+
+.hero-text {
+color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.64px;
+}
+.man-camera{
+    padding: 31px 38px
+
+}
+
+.img-man-camera {
+
+}
+
+.hero-img-text {display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.hero-img {display: flex;
+    width: 109px;
+    align-items: center;
+    align-content: center;
+    gap: 4px;
+    flex-wrap: wrap;}
+
+.hero-item {
+    padding-top: 40px;
+    display: flex;
+
+}
+
+.hero-list {
+    margin: -3px;
+}
+.link-arrow {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    
+}
+.hero-linl-reviews {
+    color: #FFF;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.56px;
+}
+
+.icon-arrow {
+   
+}
+
+.icon-text {padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+    
+.item-star {}
+
+.list-star {}
+
+.hero-text-shadow {
+    color: rgba(255, 255, 255, 0.50);
+        font-family: DM Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.56px;
+}
+
+.icon-hero-star {
+    border-radius: 100px;
+    background: #BEA69E;}
