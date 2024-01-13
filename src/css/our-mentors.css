@@ -58,9 +58,9 @@
     max-width: 100%;
   }
 }
+
 .mentors-item {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* transform: scale(1); */
 }
 
 .mentors-item:hover,
@@ -68,9 +68,11 @@
   transform: scale(1.1);
 }
 
-/* .mentors-item:not(:hover):not(:focus) {
-  transform: scale(1);
-} */
+@media (hover: none) {
+  .mentors-item:active {
+    transform: scale(1.1);
+  }
+}
 
 .mentors-img {
   border-radius: 200px;
