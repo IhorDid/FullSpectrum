@@ -21,7 +21,8 @@
 }
 
 .nav-header {
-  width: 335px;
+  width: 100%;
+  max-width: 335px;
   height: 50px;
 
   display: flex;
@@ -36,8 +37,13 @@
   align-items: center;
 }
 
+.nav-header::() {
+  justify-content: space-between;
+}
+
 @media only screen and (min-width: 768px) {
   .nav-header {
+    max-width: none;
     width: 504px;
     height: 60px;
   }
@@ -55,7 +61,7 @@
 }
 
 .logo {
-  margin-right: 90px;
+  margin-right: auto;
 
   display: flex;
 
@@ -65,13 +71,13 @@
 
 @media only screen and (min-width: 768px) {
   .logo {
-    margin-right: 301px;
+    margin-right: auto;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .logo {
-    margin-right: 97px;
+    margin-right: auto;
   }
 }
 
