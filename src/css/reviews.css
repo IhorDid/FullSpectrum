@@ -26,14 +26,6 @@
     width: 100%;
 
     padding: 20px;
-
-   
-}
-
-@media only screen and (max-width: 1279.99px) {
-.reviews-items:last-child {
-    display: none;
-  }
 }
 
 .users-info-container {
@@ -43,6 +35,10 @@
 
 .users-images {
     margin-right: 10px;
+
+    border-radius: 100px;
+        background: var(--avatar-user-square-ethan-valdez-neutral-background, 
+        url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
 }
 
 .users-header-container {
@@ -71,14 +67,6 @@
     top: 80px;
 }
 
-@media only screen and (min-width: 768px) {
-.stars-container {
-    position: absolute;
-    left: 504px;
-    top: 20px;
-  }
-}
-
 .star-svg {
     fill: #BEA69E;
     stroke: #BEA69E;
@@ -93,4 +81,146 @@
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
+}
+
+/* ++++++++++++++ =tablet= +++++++++++++++++/////////////////////////////////// */
+
+@media screen and (min-width: 768px) {
+    .reviews {
+        padding: 50px 0px;
+    }
+
+    .reviews-header {
+        font-size: 48px;
+        line-height: 1.12;
+        letter-spacing: -0.04em;
+
+        padding-bottom: 50px;
+    }
+
+    .reviews-items {
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+
+        width: 100%;
+
+        padding: 20px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .users-info-container {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .users-images {
+        margin-right: 10px;
+
+        border-radius: 100px;
+        background: var(--avatar-user-square-ethan-valdez-neutral-background,
+                url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
+    }
+
+    .users-header-container {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        justify-content: center;
+    }
+
+    .users-education {
+        font-size: 14px;
+    }
+ 
+    .stars-container {
+        position: absolute;
+        left: 536px;
+        top: 20px;
+    }
+
+}
+
+/* ++++++++++++++ =not desktop= +++++++++++++/////////////////////////////////// */
+
+@media screen and (max-width: 1279.99px) {
+    .reviews-items:last-child {
+    display: none;
+    }
+}
+
+/* +++++++++++++++ =desktop= ++++++++++++++++/////////////////////////////////// */
+
+@media only screen and (min-width: 1278px) {
+.reviews {
+        padding: 75px 0px;
+    }
+
+    .reviews-header {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.13;
+        letter-spacing: -0.04em;
+
+        padding-bottom: 50px;
+    }
+
+    .reviews-list {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        position: relative;
+    }
+
+    .reviews-items {
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+
+        width: 100%;
+
+        padding: 20px 20px 40px 20px;
+        margin: 0%;
+    }
+
+    .users-info-container {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .users-images {
+        margin-right: 10px;
+
+        border-radius: 100px;
+        background: var(--avatar-user-square-ethan-valdez-neutral-background,
+                url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
+    }
+
+    .users-header-container {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        justify-content: center;
+    }
+
+    .users-name {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .users-education {
+        font-size: 14px;
+    }
+
+    .stars-container {
+        position: absolute;
+        left: 394px;
+        top: 20px;
+    }
+
+    .stars-container-clone {
+        position: absolute;
+        left: 944px;
+        top: 20px;
+    }
 }
