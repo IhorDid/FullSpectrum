@@ -19,6 +19,7 @@ address{
     flex-direction: column;
 }
 .container-footer{
+    width: 143px;
     margin-bottom: 40px;
 }
 .footer-logo{
@@ -101,7 +102,7 @@ address{
 }
 .footer-btn:hover,
 .footer-btn:focus{
-  background-color: rgb(64, 60, 60);  
+  background-color: #BEA69E;  
 }
 
 .footer-privacy{
