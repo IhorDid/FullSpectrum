@@ -24,6 +24,7 @@
 .acsent-advertisement {
   color: #bea69e;
 }
+
 @keyframes marqueeLine {
   from {
     transform: translateX(0);
