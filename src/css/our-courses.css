@@ -1,0 +1,85 @@
+.our-courses {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.courses {}
+
+.courses-wrap {
+    display: flex;
+    align-items: center;
+    gap: 410px;
+    margin-bottom: 50px;
+}
+
+.container {}
+
+.courses-title {
+    max-width: 265px;
+    height: 64px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+    color: #FFF;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.courses-title-span {
+    color: #BEA69E;
+}
+
+.courses-paragraph {
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+}
+
+.courses-paragraph-text {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.courses-list {
+    display: flex;
+    gap: 20px;
+}
+
+.courses-wrapper .p {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.courses-item {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+}
+
+.courses-wrapper {
+    padding: 32px;
+}
+
+.courses-svg {
+    margin-bottom: 32px;
+}
+
+.courses-number {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.40);
+}
+
+.courses-subtitle {
+    width: 265px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+        /*letter-spacing: не указан;*/
+    margin-bottom: 180px;
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+}

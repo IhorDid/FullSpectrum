@@ -1,21 +1,167 @@
 .header {
-  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.div-header {
+  width: 100%;
+  display: flex;
+}
+
+.nav-header {
+  width: 335px;
+  height: 50px;
+
+  display: flex;
+  flex-shrink: 0;
+
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: var(--black, #121212);
+
+  padding: 0 20px;
+
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-header {
+    width: 504px;
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .nav-header {
+    width: 822px;
+    height: 60px;
+    padding: 0 50px;
+  }
+}
+
+.container {
+}
+
+.logo {
+  margin-right: 90px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    margin-right: 301px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .logo {
+    margin-right: 97px;
+  }
 }
 
 .nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  display: none;
+}
+
+@media only screen and (min-width: 1280px) {
+  .nav-list {
+    display: flex;
+    gap: 28px;
+  }
+}
+
+.nav-list-item {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.mobile-sign-link {
+  display: flex;
+
+  margin-right: 14px;
+
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background-color: #1d1d1d;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-sign-link {
+    display: none;
+  }
+}
+
+.burger-btn {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .burger-btn {
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .burger-btn {
+    display: none;
+  }
+}
+
+.sign-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 12px;
+  background: #fff;
+
+  width: 186px;
+  height: 60px;
+
+  color: #121212;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+
+  margin-left: 14px;
+
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .sign-link {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sign-link {
+    width: 238px;
+    height: 60px;
+
+    padding: 16px 58px;
+  }
 }
