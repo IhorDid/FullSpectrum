@@ -1,19 +1,19 @@
 
 /* mobile-menu for project 14 */
-/* .btn-close-menu{
+.btn-close-menu{
     display: block;
     margin-left: auto;
     width: 32px;
     height: 32px;
+    color: #121212;
   }
   .mobile-menu{
     display: flex;
     flex-direction: column;
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    right: 0;
+    width: 218px;
     background-color: #BEA69E;
   
     opacity: 0;
@@ -29,6 +29,9 @@
     display: flex;
     flex-direction: column;
     gap: 20px 0;
+    margin-top: 128px;
+    margin-left: 20px;
+    margin-bottom: 123px;
   
     color: #121212;
     font-family: DM Sans;
@@ -39,4 +42,4 @@
   .mob-menu-link-about{
     font-weight: 700;
   }
-   */
+  
