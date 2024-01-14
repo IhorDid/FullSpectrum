@@ -179,8 +179,8 @@
     background-color: #bea69e;
   }
   .sign-img-lens {
-    margin-top: 76px;
-    margin-left: -19px;
+    margin: 76px 19px;
+    filter: drop-shadow(-36px 18px 26px rgba(21, 21, 21, 0.5));
   }
   .camera-wrap {
     width: 340px;
