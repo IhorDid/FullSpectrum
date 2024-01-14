@@ -20,7 +20,7 @@
 
     
     <script type="module" crossorigin src="/FullSpectrum/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/FullSpectrum/assets/index-f5ab3f36.css">
+    <link rel="stylesheet" href="/FullSpectrum/assets/index-4c47db03.css">
   </head>
   <body>
     <!-- Кирилл -->
@@ -92,29 +92,49 @@
     </svg>
   </button>
   <ul class="mob-menu-list">
-    <li>
-      <a href="#About us" class="mob-menu-link-about">About us</a>
+    <li class="mob-menu-item">
+      <a href="#about-us" class="mob-menu-link-about">About us</a>
     </li>
-    <li>
-      <a href="#Our courses" class="mob-menu-link">Our courses</a>
+    <li class="mob-menu-item">
+      <a href="#our-courses" class="mob-menu-link">Our courses</a>
     </li>
-    <li>
-      <a href="#Our mentors" class="mob-menu-link">Our mentors</a>
+    <li class="mob-menu-item">
+      <a href="#our-mentors" class="mob-menu-link">Our mentors</a>
     </li>
-    <li>
-      <a href="#Reviews" class="mob-menu-link">Reviews</a>
+    <li class="mob-menu-item">
+      <a href="#reviews" class="mob-menu-link">Reviews</a>
     </li>
-    <li>
-      <a href="#Contacts" class="mob-menu-link">Contacts</a>
+    <li class="mob-menu-item">
+      <a href="#contacts" class="mob-menu-link">Contacts</a>
     </li>
   </ul>
 
-  <img
-    srcset="../img/hero/hero-17_mob@1x.jpg, ../img/hero/hero-18_mob@2x.jpg"
-    ,
-    src="../img/hero/hero-17_mob@1x.jpg"
-    alt="photo-camera"
-  />
+  <picture>
+   <!-- Tablet screen -->
+
+    <source
+      media="(min-width: 768px)"
+      srcset="/FullSpectrum/assets/hero-19_tab@1x-25f8927e.jpg , /FullSpectrum/assets/hero-20_tab@2x-204f53e3.jpg "
+
+      type="image/jpg"
+    />
+    <!-- Mobile screen -->
+
+    <source
+      media="(max-width: 767px)"
+      srcset="/FullSpectrum/assets/hero-17_mob@1x-c6fff552.jpg , /FullSpectrum/assets/hero-18_mob@2x-59b0ec9e.jpg "
+
+      type="image/jpg"
+    />
+    <img
+      class="mob-menu-image"
+      src="/FullSpectrum/assets/hero-17_mob@1x-c6fff552.jpg"
+      alt="photo-camera"
+      width=""
+      loading="lazy"
+    />
+  </picture>
+
 </div>
 
 
@@ -290,7 +310,7 @@
    </div>
 </section>
       <!-- Тоха -->
-      <section class="our-courses">
+      <section class="our-courses" id="our-courses">
     <div class="courses container">
 
         <div class="courses-wrap">
@@ -485,7 +505,7 @@
 </section>
 
       <!-- Паша -->
-      <section class="reviews">
+      <section class="reviews" id="reviews">
    <div class="container">
         <h2 class="reviews-header">Reviews</h2>
             <ul class="reviews-list">
@@ -621,12 +641,9 @@
             fill="white"
           />
         </svg>
-        <!-- <svg class="logo" width="123" height="16">
-          <use href="./img/sprite.svg#icon-logo"></use>
-        </svg> -->
       </a>
       <address class="address-footer-list">
-        <a class="adr-number" href="tel:+380665438912">UA: +38 066 543 8912</a>
+        <a class="adr-number" href="tel:+380665438912" id="contacts">UA: +38 066 543 8912</a>
         <p class="ads-loc">Ukraine, Kyiv</p>
       </address>
     </div>
@@ -661,19 +678,19 @@
 
       <ul class="footer-nav-list">
         <li class="footer-nav-item">
-          <a class="footer-nav-link" href="#About us">About us</a>
+          <a class="footer-nav-link" href="#about-us">About us</a>
         </li>
         <li class="footer-nav-item">
-          <a class="footer-nav-link" href="#Our courses">Our courses</a>
+          <a class="footer-nav-link" href="#our-courses">Our courses</a>
         </li>
         <li class="footer-nav-item">
-          <a class="footer-nav-link" href="#Our mentors">Our mentors</a>
+          <a class="footer-nav-link" href="#our-mentors">Our mentors</a>
         </li>
         <li class="footer-nav-item">
-          <a class="footer-nav-link" href="#Reviews">Reviews</a>
+          <a class="footer-nav-link" href="#reviews">Reviews</a>
         </li>
         <li class="footer-nav-item">
-          <a class="footer-nav-link" href="#Contacts">Contacts</a>
+          <a class="footer-nav-link" href="">Contacts</a>
         </li>
       </ul>
     </div>
@@ -781,5 +798,6 @@
 
 
     
+    <script src="./js/menu.js"></script>
   </body>
 </html>
