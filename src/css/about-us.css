@@ -37,15 +37,15 @@
   color: #bea69e;
 }
 @media only screen and (min-width: 1280px) {
-.about-us-wrapper{
-display: flex;
-}
+  .about-us-wrapper {
+    display: flex;
+  }
 }
 .about-us-pic {
   border-radius: 1000px;
   margin-bottom: 40px;
   width: 100%;
-  max-width: 335px;
+  max-width: 375px;
 }
 @media only screen and (min-width: 768px) {
   .about-us-pic {
@@ -54,23 +54,57 @@ display: flex;
 }
 @media only screen and (min-width: 1280px) {
   .about-us-pic {
-    flex-shrink: 1;
+    min-width: 488px;
+    flex-shrink: 0;
     width: 488px;
     margin-right: 40px;
   }
 }
+
 .description {
   display: flex;
-  
 }
 @media only screen and (min-width: 1280px) {
   .description {
-  display: flex;
-  direction: row;
+    display: flex;
+    direction: row;
+  }
 }
+@media only screen and (min-width: 1280px) {
+  .about-us-wrapper {
+    display: flex;
+    gap: 20px;
+  }
 }
-.description:first-child {
+.about-us-list {
 }
+
+@media only screen and (min-width: 768px) {
+  .about-us-list {
+    display: flex;
+    gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about-us-description-list {
+    display: flex;
+    gap: 40px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .about-us-description-list {
+    display: flex;
+    gap: 50px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .about-us-description-list {
+    gap: 20px;
+    margin-left: 50px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .description {
     display: flex;
