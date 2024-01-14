@@ -1,7 +1,5 @@
 /* base */
-ul{
-    list-style-type: none;
-}
+
 
 address{
     font-style: normal;
@@ -13,6 +11,7 @@ address{
     background-image: url(../img/footer/footer-3_mob@1x.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     padding: 40px 0 20px;
 }
 .footer-container{
@@ -20,14 +19,14 @@ address{
     flex-direction: column;
 }
 .container-footer{
+    width: 143px;
     margin-bottom: 40px;
 }
 .footer-logo{
     display: inline-flex;
-    padding: 0;
     margin-bottom: 16px;
     color: #FFFFFF;
-    width: 127px;
+ 
 }
 .address-footer-list{
     display: flex;
@@ -80,6 +79,7 @@ address{
     border: none;
     border-radius: 12px;
     background-color: #FFF;
+    outline: transparent;
 
     color: #121212;
     font-family: DM Sans;
@@ -91,13 +91,20 @@ address{
     padding-left: 18px;
 }
 .footer-btn{
+    display: block;
     cursor: pointer;
     width: 60px;
     height: 60px;
     padding: 18px 17px 18px 16px;
     border-radius: 12px;
     background-color: #1D1D1D;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-btn:hover,
+.footer-btn:focus{
+  background-color: #BEA69E;  
+}
+
 .footer-privacy{
     display: flex;
     justify-content: space-between;
@@ -126,7 +133,7 @@ address{
     .footer-nav{
         display: flex;
         column-gap: 25px;
-        margin-right: 60px;
+        margin-right: auto;
     }
     .label-form{
         width: 178px;
@@ -149,7 +156,7 @@ address{
   .footer-nav{
     display: flex;
     column-gap: 50px;
-    margin-right: 137px;
+    margin-right: auto;
 } 
  .label-form{
     width: 216px;
