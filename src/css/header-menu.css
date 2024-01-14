@@ -9,6 +9,7 @@
     height: 32px;
     color: #121212;
   }
+
   .mobile-menu{
     display: flex;
     flex-direction: column;
