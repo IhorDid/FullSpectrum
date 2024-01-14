@@ -76,13 +76,14 @@
     gap: 20px;
   }
 }
-.about-us-list{}
+.about-us-list {
+}
 
 @media only screen and (min-width: 768px) {
-.about-us-list{
-display: flex;
-gap: 40px;
-}
+  .about-us-list {
+    display: flex;
+    gap: 40px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -93,7 +94,8 @@ gap: 40px;
 }
 @media only screen and (min-width: 1280px) {
   .about-us-description-list {
-    display: flex; gap: 50px;
+    display: flex;
+    gap: 50px;
   }
 }
 @media only screen and (min-width: 1280px) {
