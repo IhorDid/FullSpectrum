@@ -37,7 +37,7 @@
   align-items: center;
 }
 
-.nav-header::() {
+.nav-header {
   justify-content: space-between;
 }
 
