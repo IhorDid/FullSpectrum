@@ -1,71 +1,86 @@
+.btn-close-menu {
+  display: block;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: auto;
+  width: 32px;
+  height: 32px;
+  color: #121212;
+}
+.mobile-overlay {
+  background: rgba(18, 18, 18, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 999;
+}
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 218px;
+  height: 100%;
+  background-color: #bea69e;
+  background-image: image-set(
+    url(../img/hero/hero-17_mob@1x.jpg) 1x,
+    url(../img/hero/hero-18_mob@2x.jpg) 2x
+  );
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.is-hidden {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: 0.5s;
+}
 
-/* mobile-menu for project 14 */
-.btn-close-menu{
-    display: block;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: auto;
-    width: 32px;
-    height: 32px;
-    color: #121212;
-  }
+.mob-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  margin-top: 128px;
+  margin-left: 20px;
+  margin-bottom: 123px;
 
-  .mobile-menu{
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 218px;
-    background-color: #BEA69E;
-    z-index: 999;
-    
-  
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+  color: #121212;
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.mob-menu-item:hover,
+.mob-menu-item:focus {
+  transform: scale(1.1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mob-menu-link-about {
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+  .btn-close-menu {
+    margin-right: 32px;
   }
-  .is-hidden{
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+  .mobile-menu {
+    width: 480px;
+    background-image: image-set(
+      url(../img/hero/hero-19_tab@1x.jpg) 1x,
+      url(../img/hero/hero-20_tab@2x.jpg) 2x
+    );
   }
   .mob-menu-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px 0;
-    margin-top: 128px;
-    margin-left: 20px;
-    margin-bottom: 123px;
-  
-    color: #121212;
-    font-family: DM Sans;
-    font-size: 14px;
-    line-height: normal;
-    text-transform: uppercase;
+    font-size: 18px;
+    gap: 28px 0;
+    margin-top: 172px;
+    margin-left: 64px;
+    margin-bottom: 114px;
   }
-  .mob-menu-item:hover,
-  .mob-menu-item:focus{
-    transform: scale(1.1);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .mob-menu-link-about{
-    font-weight: 700;
-  }
-  
-
-  @media only screen and (min-width: 768px) {
-    .btn-close-menu{
-      margin-right: 32px;
-    }
-    .mobile-menu {
-      width: 480px;
-    }
-    .mob-menu-list{
-      font-size: 18px;
-      gap: 28px 0;
-      margin-top: 172px;
-      margin-left: 64px;
-      margin-bottom: 114px;
-    }
-  }
+}
