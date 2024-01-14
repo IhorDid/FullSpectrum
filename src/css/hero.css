@@ -151,7 +151,9 @@ fill: none;
             }
 
   .hero-text { 
-  line-height: 1.25;}  
+  line-height: 1.25;
+    width: 418px;
+    margin-bottom: 136px;}  
   
   .hero-img {
                 flex-direction: row;
@@ -200,7 +202,8 @@ line-height: 1.25; }
 @media screen and (min-width: 1280px) {
   .hero-section {
       background-image: url(../img/hero/hero-23_desk@1x.png);
-padding: 49px 100px 89px;}
+padding-top: 160px;
+  padding-bottom: 150px;}
 
 .hero-container {
   position: relative;
@@ -224,7 +227,7 @@ width: 563px;
   gap: 40px;
 }
 
-
+.hero-text {}
 .img-man-camera {
   position: absolute;
   top: 25px;
