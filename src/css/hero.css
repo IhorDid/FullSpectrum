@@ -155,7 +155,7 @@ fill: none;
   .hero-text { 
   line-height: 1.25;
     width: 418px;
-    margin-bottom: 136px;}  
+    }  
   
   .hero-img {
                 flex-direction: row;
