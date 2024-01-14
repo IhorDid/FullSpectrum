@@ -20,7 +20,7 @@
 
     
     <script type="module" crossorigin src="/FullSpectrum/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/FullSpectrum/assets/index-df48e049.css">
+    <link rel="stylesheet" href="/FullSpectrum/assets/index-d626ab28.css">
   </head>
   <body>
     <!-- Кирилл -->
@@ -66,7 +66,9 @@
   </div>
 </header>
 
-    <div class="mobile-menu" data-menu>
+    <div class="mobile-overlay" data-menu>
+  <div class="mobile-menu">
+
   <button type="button" class="btn-close-menu" data-menu-close>
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -91,6 +93,7 @@
       />
     </svg>
   </button>
+
   <ul class="mob-menu-list">
     <li class="mob-menu-item">
       <a href="#about-us" class="mob-menu-link-about">About us</a>
@@ -108,33 +111,7 @@
       <a href="#contacts" class="mob-menu-link">Contacts</a>
     </li>
   </ul>
-
-  <picture>
-   <!-- Tablet screen -->
-
-    <source
-      media="(min-width: 768px)"
-      srcset="/FullSpectrum/assets/hero-19_tab@1x-25f8927e.jpg , /FullSpectrum/assets/hero-20_tab@2x-204f53e3.jpg "
-
-      type="image/jpg"
-    />
-    <!-- Mobile screen -->
-
-    <source
-      media="(max-width: 767px)"
-      srcset="/FullSpectrum/assets/hero-17_mob@1x-c6fff552.jpg , /FullSpectrum/assets/hero-18_mob@2x-59b0ec9e.jpg "
-
-      type="image/jpg"
-    />
-    <img
-      class="mob-menu-image"
-      src="/FullSpectrum/assets/hero-17_mob@1x-c6fff552.jpg"
-      alt="photo-camera"
-      width=""
-      loading="lazy"
-    />
-  </picture>
-
+</div>
 </div>
 
 
@@ -725,79 +702,7 @@
     </div>
 
 
-    <div class="footer-nav">
-      <ul class="social-footer-list">
-        <li class="social-footer-item">
-          <a
-            class="social-footer-link"
-            href="https://www.instagram.com/goitclub/"
-            target="_blank"
-            >Instagram</a
-          >
-        </li>
-        <li class="social-footer-item">
-          <a
-            class="social-footer-link"
-            href=" https://www.facebook.com/goITclub/"
-            target="_blank"
-            >Facebook</a
-          >
-        </li>
-        <li class="social-footer-item">
-          <a
-            class="social-footer-link"
-            href=" https://www.youtube.com/c/GoIT"
-            target="_blank"
-            >YouTube</a
-          >
-        </li>
-      </ul>
-
-      <ul class="footer-nav-list">
-        <li class="footer-nav-item">
-          <a class="footer-nav-link" href="#about us">About us</a>
-        </li>
-        <li class="footer-nav-item">
-          <a class="footer-nav-link" href="#our courses">Our courses</a>
-        </li>
-        <li class="footer-nav-item">
-          <a class="footer-nav-link" href="#our mentors">Our mentors</a>
-        </li>
-        <li class="footer-nav-item">
-          <a class="footer-nav-link" href="#reviews">Reviews</a>
-        </li>
-        <li class="footer-nav-item">
-          <a class="footer-nav-link" href="#contacts">Contacts</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="footer-div-form">
-      <form class="footer-form">
-        <label class="label-form">
-          <input
-            class="input-form"
-            type="email"
-            name="footer-input-form"
-            placeholder="Enter your email"
-            pattern="@"
-          />
-        </label>
-        <button class="footer-btn" type="submit">Go</button>
-      </form>
-    </div>
-
-    <div class="footer-privacy">
-      <p class="p-policy">
-        Privacy Policy<br />
-        Public Offering Agreement
-      </p>
-
-      <p class="p-privat">2023 Focus Frame<br />&copy;All rights reserved</p>
-    </div>
-  </div>
-</footer>
-
+   
 
 
 
