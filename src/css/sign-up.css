@@ -157,22 +157,24 @@
     align-items: flex-end;
     gap: 20px;
   }
-  .sign-img-lens {
+  .lens-wrap {
     width: 180px;
     height: 288px;
-    padding: 76px 19px 62px;
-
-    flex-shrink: 0;
 
     border-radius: 1000px;
     background-color: #bea69e;
   }
-  .sign-img-camera {
+  .sign-img-lens {
+    margin-top: 76px;
+    margin-left: -19px;
+  }
+  .camera-wrap {
     width: 340px;
     height: 540px;
-    padding: 156px 50px 88px;
     border-radius: 1000px;
     background-color: #1d1d1d;
-    flex-shrink: 0;
+  }
+  .sign-img-camera {
+    margin: 156px auto;
   }
 }
