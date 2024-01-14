@@ -139,6 +139,8 @@ fill: none;
  .hero-section {
     background-image: url(../img/hero/hero-27_tab@1x.png);
   background-size: cover;
+  padding-top: 120px;
+    padding-bottom: 100px
  }
 
     .hero-container {
@@ -203,7 +205,9 @@ line-height: 1.25; }
   .hero-section {
       background-image: url(../img/hero/hero-23_desk@1x.png);
 padding-top: 160px;
-  padding-bottom: 150px;}
+  padding-bottom: 150px;
+padding-right: 100px;
+  padding-left: 100px;}
 
 .hero-container {
   position: relative;
@@ -227,7 +231,8 @@ width: 563px;
   gap: 40px;
 }
 
-.hero-text {}
+.hero-text {
+  margin-bottom: 136px;}
 .img-man-camera {
   position: absolute;
   top: 25px;
