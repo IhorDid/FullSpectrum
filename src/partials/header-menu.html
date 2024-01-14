@@ -24,27 +24,49 @@
     </svg>
   </button>
   <ul class="mob-menu-list">
-    <li>
-      <a href="#About us" class="mob-menu-link-about">About us</a>
+    <li class="mob-menu-item">
+      <a href="#about-us" class="mob-menu-link-about">About us</a>
     </li>
-    <li>
-      <a href="#Our courses" class="mob-menu-link">Our courses</a>
+    <li class="mob-menu-item">
+      <a href="#our-courses" class="mob-menu-link">Our courses</a>
     </li>
-    <li>
-      <a href="#Our mentors" class="mob-menu-link">Our mentors</a>
+    <li class="mob-menu-item">
+      <a href="#our-mentors" class="mob-menu-link">Our mentors</a>
     </li>
-    <li>
-      <a href="#Reviews" class="mob-menu-link">Reviews</a>
+    <li class="mob-menu-item">
+      <a href="#reviews" class="mob-menu-link">Reviews</a>
     </li>
-    <li>
-      <a href="#Contacts" class="mob-menu-link">Contacts</a>
+    <li class="mob-menu-item">
+      <a href="#contacts" class="mob-menu-link">Contacts</a>
     </li>
   </ul>
 
-  <img
-    srcset="../img/hero/hero-17_mob@1x.jpg, ../img/hero/hero-18_mob@2x.jpg"
-    ,
-    src="../img/hero/hero-17_mob@1x.jpg"
-    alt="photo-camera"
-  />
+  <picture>
+   <!-- Tablet screen -->
+
+    <source
+      media="(min-width: 768px)"
+      srcset="./img/hero/hero-19_tab@1x.jpg,
+              ./img/hero/hero-20_tab@2x.jpg"
+
+      type="image/jpg"
+    />
+    <!-- Mobile screen -->
+
+    <source
+      media="(max-width: 767px)"
+      srcset="./img/hero/hero-17_mob@1x.jpg,
+              ./img/hero/hero-18_mob@2x.jpg"
+
+      type="image/jpg"
+    />
+    <img
+      class="mob-menu-image"
+      src="./img/hero/hero-17_mob@1x.jpg"
+      alt="photo-camera"
+      width=""
+      loading="lazy"
+    />
+  </picture>
+
 </div>
