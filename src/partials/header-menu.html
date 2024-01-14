@@ -1,4 +1,6 @@
-<div class="mobile-menu" data-menu>
+<div class="mobile-overlay" data-menu>
+  <div class="mobile-menu">
+
   <button type="button" class="btn-close-menu" data-menu-close>
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -23,6 +25,7 @@
       />
     </svg>
   </button>
+
   <ul class="mob-menu-list">
     <li class="mob-menu-item">
       <a href="#about-us" class="mob-menu-link-about">About us</a>
@@ -40,33 +43,5 @@
       <a href="#contacts" class="mob-menu-link">Contacts</a>
     </li>
   </ul>
-
-  <picture>
-   <!-- Tablet screen -->
-
-    <source
-      media="(min-width: 768px)"
-      srcset="./img/hero/hero-19_tab@1x.jpg,
-              ./img/hero/hero-20_tab@2x.jpg"
-
-      type="image/jpg"
-    />
-    <!-- Mobile screen -->
-
-    <source
-      media="(max-width: 767px)"
-      srcset="./img/hero/hero-17_mob@1x.jpg,
-              ./img/hero/hero-18_mob@2x.jpg"
-
-      type="image/jpg"
-    />
-    <img
-      class="mob-menu-image"
-      src="./img/hero/hero-17_mob@1x.jpg"
-      alt="photo-camera"
-      width=""
-      loading="lazy"
-    />
-  </picture>
-
+</div>
 </div>
