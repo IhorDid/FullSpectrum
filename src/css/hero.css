@@ -1,4 +1,6 @@
-.hero-section {}
+.hero-section {
+    background-image: url(../img/hero/hero-25_mob@1x.png);
+}
    
 
 .hero-container {display: flex;
@@ -11,17 +13,16 @@
 
 .hero-title {
 color: #FFF;
-    font-family: DM Sans;
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 20px;
+    font-family: DM Sans, sans-serif;
 }
 
 .span-hero-text {
-    color: #BEA69E;
-        font-family: DM Sans;
-        font-size: 40px;
-        font-style: italic;
+    color: #bea69e;
+      font-style: italic;
+      font-weight: 400;
 }
 
 .hero-text {
@@ -131,3 +132,130 @@ fill: none;
     padding: 12px;
     stroke-width: 1.5px;
     stroke: #121212;}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+ .hero-section {
+    background-image: url(../img/hero/hero-27_tab@1x.png);
+    padding-top: 120px;
+      padding-bottom: 100px;
+ }
+
+    .hero-container {
+        padding-top: 64px
+        }
+    
+.hero-title {width: 517px;
+    font-size: 60px;
+    line-height: 1.07;
+    letter-spacing: -.04em;
+            }
+
+  .hero-text { width: 418px;
+  line-height: 1.25;}  
+  
+  .hero-img {
+                flex-direction: row;
+                gap: 12px;
+  }
+.hero-item {
+    padding: 0;
+}
+
+.hero-avatar {width: 54px;
+    height: 54px;}
+
+.hero-list:nth-child(2) {
+  margin-left: -14px;
+}
+.hero-list:nth-child(3) {
+  margin-left: -12px;
+    z-index: 0;
+  }
+  .link-arrow {
+    flex-direction: column;
+      align-items: flex-start;
+  }
+
+
+
+.icon-text {
+  gap: 8px;
+}
+.hero-text-shadow {font-size: 16px;
+line-height: 1.25; }
+
+.icon-hero-star {
+  width: 50px;
+    height: 50px;
+}
+.hero-texst-rev {
+  gap: 8px;
+}
+}
+@media screen and (min-width: 1280px) {
+  .hero-section {
+      background-image: url(../img/hero/hero-23_desk@1x.png);
+  padding-top: 75px;
+    padding-bottom: 75px; }
+
+.hero-container {
+  position: relative;
+    padding: 80px 50px 0;
+
+}
+
+.hero-title {
+width: 563px;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.hero-text {
+  margin-bottom: 136px;
+}
+
+.hero-img-text {
+  margin-bottom: 50px;
+}
+
+.hero-img {
+  gap: 40px;
+}
+
+
+.img-man-camera {
+  position: absolute;
+    top: 80px;
+    right: 50px;
+}
+
+  }
+@media screen and (min-width: 320px) {
+  .hero-section {
+    padding-right: 20px;
+    padding-left: 20px;
+
+  }
+  }
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
