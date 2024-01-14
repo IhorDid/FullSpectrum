@@ -27,11 +27,10 @@ color: #FFF;
 
 .hero-text {
 color: #FFF;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18px;
-    letter-spacing: -0.64px;
-    margin-bottom: 40px;
+font-size: 14px;
+  width: 300px;
+  margin-bottom: 40px;
+
 }
 
 .img-man-camera {
@@ -39,10 +38,10 @@ color: #FFF;
 }
 
 .hero-img-text {display: flex;
-    align-items: flex-start;
-    gap: 40px;
-    flex-direction: row;
-    margin-bottom: 40px; }
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 40px; }
 
 .hero-img {display: flex;
 flex-direction: column;
@@ -70,7 +69,7 @@ background-color: #1d1d1d;
 }
 .link-arrow {
     display: flex;
-        justify-content: center;
+        
         align-items: center;
         gap: 4px;
     
@@ -79,12 +78,12 @@ background-color: #1d1d1d;
     color: #FFF;
         font-size: 14px;
         font-weight: 400;
-        line-height: 18px;
-        /* 128.571% */
+        line-height: 1.12;
+      
         letter-spacing: -0.56px;
 }
 
-.Our-happy {
+.our-happy {
     width: 67px;
         font-size: 14px;
         line-height: 1.29;
@@ -138,8 +137,7 @@ fill: none;
 @media screen and (min-width: 768px) {
  .hero-section {
     background-image: url(../img/hero/hero-27_tab@1x.png);
-    padding-top: 120px;
-      padding-bottom: 100px;
+  background-size: cover;
  }
 
     .hero-container {
@@ -148,8 +146,7 @@ fill: none;
     
 .hero-title {width: 517px;
     font-size: 60px;
-    line-height: 1.07;
-    letter-spacing: -.04em;
+   
             }
 
   .hero-text { width: 418px;
@@ -193,6 +190,11 @@ line-height: 1.25; }
 .hero-texst-rev {
   gap: 8px;
 }
+
+.our-happy {width: 82px;
+  font-size: 16px;
+  line-height: 1.25;}
+
 }
 @media screen and (min-width: 1280px) {
   .hero-section {
@@ -232,13 +234,7 @@ width: 563px;
 }
 
   }
-@media screen and (min-width: 320px) {
-  .hero-section {
-    padding-right: 20px;
-    padding-left: 20px;
 
-  }
-  }
 
 
 
