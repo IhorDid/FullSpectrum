@@ -27,15 +27,21 @@ color: #FFF;
 
 .hero-text {
 color: #FFF;
-font-size: 14px;
-  width: 300px;
+  width: 295px;
   margin-bottom: 40px;
+
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+line-height: 1.29;
+  letter-spacing: -.02em;
 
 }
 
 .img-man-camera {
+    margin: 0 auto }
 
-}
+
 
 .hero-img-text {display: flex;
   flex-direction: row;
@@ -80,7 +86,7 @@ background-color: #1d1d1d;
         font-weight: 400;
         line-height: 1.12;
       
-        letter-spacing: -0.56px;
+        letter-spacing: -0.035em;
 }
 
 .our-happy {
@@ -88,9 +94,6 @@ background-color: #1d1d1d;
         font-size: 14px;
         line-height: 1.29;
         letter-spacing: -.04em;
-}
-.icon-arrow {
-   
 }
 
 .icon-text {display: flex;
@@ -102,11 +105,8 @@ background-color: #1d1d1d;
     flex-direction: column;
     gap: 4px; }
 
-.item-star {
-    
-}
 
-.list-star {}
+
 
 .hero-text-shadow {
     color: rgba(255, 255, 255, 0.50);
@@ -115,7 +115,7 @@ background-color: #1d1d1d;
         font-style: normal;
         font-weight: 400;
         line-height: 18px;
-        letter-spacing: -0.56px;
+        letter-spacing: -0.04em;
 }
 
 .icon-hero-star {
@@ -199,8 +199,7 @@ line-height: 1.25; }
 @media screen and (min-width: 1280px) {
   .hero-section {
       background-image: url(../img/hero/hero-23_desk@1x.png);
-  padding-top: 75px;
-    padding-bottom: 75px; }
+padding: 49px 100px 89px;}
 
 .hero-container {
   position: relative;
@@ -214,9 +213,7 @@ width: 563px;
   font-weight: 500;
 }
 
-.hero-text {
-  margin-bottom: 136px;
-}
+
 
 .hero-img-text {
   margin-bottom: 50px;
@@ -229,8 +226,8 @@ width: 563px;
 
 .img-man-camera {
   position: absolute;
-    top: 80px;
-    right: 50px;
+  top: 25px;
+    right: 100px;
 }
 
   }
