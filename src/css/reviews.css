@@ -151,7 +151,7 @@
 
 /* ++++++++++++++ =not desktop= +++++++++++++/////////////////////////////////// */
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .reviews-items:last-child {
     display: none;
   }
