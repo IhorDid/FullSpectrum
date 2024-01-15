@@ -39,6 +39,7 @@
 @media only screen and (min-width: 1280px) {
   .about-us-wrapper {
     display: flex;
+    justify-content: center;
   }
 }
 .about-us-pic {
@@ -56,8 +57,10 @@
   .about-us-pic {
     min-width: 488px;
     flex-shrink: 0;
-    width: 488px;
-    margin-right: 40px;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    margin-bottom: 0;
   }
 }
 
@@ -75,8 +78,6 @@
     display: flex;
     gap: 20px;
   }
-}
-.about-us-list {
 }
 
 @media only screen and (min-width: 768px) {
@@ -115,6 +116,9 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .description {
+    padding-left: 30px;
+  }
 }
 
 .description-about-us {
@@ -124,13 +128,17 @@
   line-height: 1.29; /* 128.571% */
   letter-spacing: -0.02em;
 }
+.description-about-us:first-child {
+  padding-bottom: 20px;
+}
 @media only screen and (min-width: 768px) {
   .description-about-us {
     font-size: 16px;
     line-height: 1.25; /* 125% */
   }
 }
-
-.description-about-us:first-child {
-  padding-bottom: 20px;
+@media only screen and (min-width: 1280px) {
+  .description-about-us {
+    padding-bottom: 0;
+  }
 }
