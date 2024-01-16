@@ -36,14 +36,8 @@
 
 .users-images {
   margin-right: 10px;
-
   border-radius: 100px;
-  background: var(
-    --avatar-user-square-ethan-valdez-neutral-background,
-    url(<path-to-image>),
-    lightgray 50% / cover no-repeat,
-    #e0e0e0
-  );
+  background: #e0e0e0;
 }
 
 .users-header-container {
@@ -121,14 +115,6 @@
 
   .users-images {
     margin-right: 10px;
-
-    border-radius: 100px;
-    background: var(
-      --avatar-user-square-ethan-valdez-neutral-background,
-      url(<path-to-image>),
-      lightgray 50% / cover no-repeat,
-      #e0e0e0
-    );
   }
 
   .users-header-container {
@@ -198,14 +184,6 @@
 
   .users-images {
     margin-right: 10px;
-
-    border-radius: 100px;
-    background: var(
-      --avatar-user-square-ethan-valdez-neutral-background,
-      url(<path-to-image>),
-      lightgray 50% / cover no-repeat,
-      #e0e0e0
-    );
   }
 
   .users-header-container {
