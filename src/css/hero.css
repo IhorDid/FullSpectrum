@@ -11,6 +11,8 @@
     border-radius: 30px;
     background-color: #1d1d1d;
     padding: 40px 20px 0;
+    width: 335px;
+      
 
 }
 
@@ -90,8 +92,24 @@ position: relative;
  .hero-list:nth-child(3) {
             margin-left: -12px;
             z-index: 0; }
+
 .hero-list {
-z-index: 2;
+  z-index: 2;
+overflow: hidden;
+ transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1)
+}
+            
+.hero-list:hover,
+.hero-list:focus {
+                transform: scale(1.8);
+              }
+            
+ @media (hover: none) {
+                .hero-list:active {
+                  transform: scale(1.8);
+                }  
+                           
+
 }
 .hero-avatar {
 background-color: #1d1d1d;
@@ -195,10 +213,13 @@ fill: none;
   background-size: cover;
   padding-top: 120px;
     padding-bottom: 100px
+   
  }
 
     .hero-container {
+      width: 704px;
         padding-top: 64px
+        
         }
     
 .hero-title {width: 517px;
@@ -266,6 +287,7 @@ padding-right: 100px;
 .hero-container {
   position: relative;
     padding: 80px 50px 0;
+    width: 1080px;
 
 }
 
@@ -311,4 +333,11 @@ transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1)
 }
 
 
+}
+@media screen and (min-width: 320px) {
+  .hero-section {
+    padding-right: 20px;
+    padding-left: 20px;
+  
+}
 }
