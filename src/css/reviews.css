@@ -76,6 +76,36 @@
   stroke: #414141;
 }
 
+.reviews-list:hover .star,
+.reviews-list:focus .star {
+  animation-name: turn-around;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes turn-around {
+  0% {
+    transform: rotate3d(180deg);
+  }
+
+  25% {
+    transform: rotateY(90deg);
+  }
+
+  50% {
+    transform: rotateY(180deg);
+  }
+
+  75% {
+    transform: rotateY(270deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
 .users-text {
   font-size: 14px;
   line-height: 1.29;
