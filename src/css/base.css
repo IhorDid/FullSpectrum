@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'DM Sans', sans-serif;
   background-color: #121212;
@@ -5,7 +8,6 @@ body {
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
