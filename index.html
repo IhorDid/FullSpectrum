@@ -24,7 +24,7 @@
 
     
     <script type="module" crossorigin src="/FullSpectrum/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/FullSpectrum/assets/index-59feaa35.css">
+    <link rel="stylesheet" href="/FullSpectrum/assets/index-8f15bd3f.css">
   </head>
   <body>
     <!-- Кирилл -->
@@ -149,7 +149,7 @@
               <img
                 class="hero-avatar"
                 src="/FullSpectrum/assets/hero-3_desk@1x-99899cea.png"
-                alt="Rectangle"
+                alt="girl in the photo"
               />
             </picture>
           </li>
@@ -183,7 +183,7 @@
               <img
                 class="hero-avatar"
                 src="/FullSpectrum/assets/hero-5_desk@1x-c19c7581.png"
-                alt="Rectangle"
+                alt="girl in the photo"
               />
             </picture>
           </li>
@@ -210,7 +210,10 @@
     <picture>
       <source
         media="(min-width: 1280px)"
-        srcset="/FullSpectrum/assets/hero-7_desk@1x-87256b67.png 1x, /FullSpectrum/assets/hero-8_desk@2x-2dcafec3.png 2x"
+        srcset="
+          ./img/hero/hero-7_desk@1x.png 1x,
+          ./img/hero/hero-8_desk@2x.png 2x
+        "
       />
       <source
         media="(min-width: 768px)"
@@ -222,8 +225,8 @@
       />
       <img
         class="img-man-camera"
-        src="/FullSpectrum/assets/hero-7_desk@1x-87256b67.png"
-        alt="man with camera"
+        src="/FullSpectrum/assets/hero-7_desk@1x_1x-294a4f5d.webp"
+        alt="Man with a camera"
         loading="lazy"
       />
     </picture>
@@ -291,66 +294,74 @@
 </section>
       <!-- Тоха -->
       <section class="our-courses" id="our-courses">
-    <div class="courses container">
-
-        <div class="courses-wrap">
-           <h2 class="courses-title">Our <span class="courses-title-span">Courses</span></h2>
-           <p class="courses-paragraph">At our photography school, we offer a variety of courses that cover all aspects of this fascinating art. Regardless of
-        your experience or skill level, we have courses to suit your needs and goals.</p>
-        </div> 
-
-        <ol class="courses-list list">
-            <li class="courses-item">
-                <div class="courses-wrapper">
-                    <div class="courses-svg">
-                        <h4 class="courses-number">01</h4>
-                        <a class="courses-link" href="#sign-up">
-                            <svg class="courses-icon" 
-                            width="20" 
-                            height="20">
-                                <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-arrow-up"></use>
-                            </svg>
-                        </a>
-                    </div>
-                    <h3 class="courses-subtitle">Basics of photography</h3>
-                    <p class="courses-text">During this course, you will be able to familiarize yourself with different types of cameras, learn the basics of
-                    composition.</p>
-                </div>
-            <li class="courses-item">
-                <div class="courses-wrapper">
-                    <div class="courses-svg">
-                        <h4 class="courses-number">02</h4>
-                        <a class="courses-link" href="#sign-up">
-                            <svg class="courses-icon" 
-                            width="20" 
-                            height="20">
-                                <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-arrow-up"></use>
-                            </svg>
-                        </a>
-                    </div>
-                    <h3 class="courses-subtitle">Landscape photography</h3>
-                    <p class="courses-text">In this course, you'll learn how to choose the right angles, frame landscapes, and create depth and perspective in your
-                    images.</p>
-                </div>
-            <li class="courses-item">
-                <div class="courses-wrapper">
-                    <div class="courses-svg">
-                        <h4 class="courses-number">03</h4>
-                        <a class="courses-link" href="#sign-up">
-                            <svg class="courses-icon" 
-                            width="20" 
-                            height="20">
-                                <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-arrow-up"></use>
-                            </svg>
-                        </a>
-                    </div>
-                    <h3 class="courses-subtitle">Portrait photography</h3>
-                    <p class="courses-text">During this course, you will learn to choose the right lighting, reproduce the mood and expressions on the faces of the
-                    models.</p>
-                </div>
-        </ol>
+  <div class="courses container">
+    <div class="courses-wrap">
+      <h2 class="courses-title">
+        Our <span class="courses-title-span">Courses</span>
+      </h2>
+      <p class="courses-paragraph">
+        At our photography school, we offer a variety of courses that cover all
+        aspects of this fascinating art. Regardless of your experience or skill
+        level, we have courses to suit your needs and goals.
+      </p>
     </div>
+
+    <ol class="courses-list list">
+      <li class="courses-item">
+        <div class="courses-wrapper">
+          <div class="courses-svg">
+            <p class="courses-number">01</p>
+            <a class="courses-link" href="#sign-up">
+              <svg class="courses-icon" width="20" height="20">
+                <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-arrow-up"></use>
+              </svg>
+            </a>
+          </div>
+          <h3 class="courses-subtitle">Basics of photography</h3>
+          <p class="courses-text">
+            During this course, you will be able to familiarize yourself with
+            different types of cameras, learn the basics of composition.
+          </p>
+        </div>
+      </li>
+      <li class="courses-item">
+        <div class="courses-wrapper">
+          <div class="courses-svg">
+            <p class="courses-number">02</p>
+            <a class="courses-link" href="#sign-up">
+              <svg class="courses-icon" width="20" height="20">
+                <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-arrow-up"></use>
+              </svg>
+            </a>
+          </div>
+          <h3 class="courses-subtitle">Landscape photography</h3>
+          <p class="courses-text">
+            In this course, you'll learn how to choose the right angles, frame
+            landscapes, and create depth and perspective in your images.
+          </p>
+        </div>
+      </li>
+      <li class="courses-item">
+        <div class="courses-wrapper">
+          <div class="courses-svg">
+            <p class="courses-number">03</p>
+            <a class="courses-link" href="#sign-up">
+              <svg class="courses-icon" width="20" height="20">
+                <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-arrow-up"></use>
+              </svg>
+            </a>
+          </div>
+          <h3 class="courses-subtitle">Portrait photography</h3>
+          <p class="courses-text">
+            During this course, you will learn to choose the right lighting,
+            reproduce the mood and expressions on the faces of the models.
+          </p>
+        </div>
+      </li>
+    </ol>
+  </div>
 </section>
+
       <!-- Наталия -->
       <!-- Our mentors  -->
 <section class="mentors" id="our-mentors">
@@ -505,19 +516,19 @@
         </div>
         <div class="stars-container">
           <svg class="star-svg" width="16" height="15">
-            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-hero"></use>
+            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-reviews"></use>
           </svg>
           <svg class="star-svg" width="16" height="15">
-            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-hero"></use>
+            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-reviews"></use>
           </svg>
           <svg class="star-svg" width="16" height="15">
-            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-hero"></use>
+            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-reviews"></use>
           </svg>
           <svg class="star-svg" width="16" height="15">
-            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-hero"></use>
+            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-reviews"></use>
           </svg>
           <svg class="star-svg" width="16" height="15">
-            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-hero"></use>
+            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-reviews"></use>
           </svg>
         </div>
         <p class="users-text">
@@ -547,19 +558,19 @@
         </div>
         <div class="stars-container-clone">
           <svg class="star-svg" width="16" height="15">
-            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-hero"></use>
+            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-reviews"></use>
           </svg>
           <svg class="star-svg" width="16" height="15">
-            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-hero"></use>
+            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-reviews"></use>
           </svg>
           <svg class="star-svg" width="16" height="15">
-            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-hero"></use>
+            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-reviews"></use>
           </svg>
           <svg class="star-svg" width="16" height="15">
-            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-hero"></use>
+            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-reviewso"></use>
           </svg>
           <svg class="star-svg" width="16" height="15">
-            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-hero"></use>
+            <use href="/FullSpectrum/assets/sprite-74a14465.svg#icon-star-reviewso"></use>
           </svg>
         </div>
         <p class="users-text">
