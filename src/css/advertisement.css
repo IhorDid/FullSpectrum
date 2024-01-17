@@ -1,10 +1,9 @@
-.advertisement {
+/* .advertisement {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .container-advertisement {
-  font-weight: 600;
   font-size: 34px;
   text-transform: uppercase;
   color: #bea69e;
@@ -56,6 +55,102 @@
 
 @media only screen and (min-width: 1280px) {
   .advertisement {
+    font-size: 59px;
+    line-height: 1.08;
+  }
+} */
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #121212;
+  color: #fff;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  display: block;
+}
+img {
+  display: block;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  min-width: 100%;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.advertisement {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.title-advertisement {
+  display: flex;
+  overflow: hidden;
+  text-transform: uppercase;
+  color: #bea69e;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+.animation {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 20px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: marqueeLine;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.color-line {
+  color: #fff;
+}
+
+@keyframes marqueeLine {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(-108%, 0);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .title-advertisement {
+    font-size: 40px;
+    line-height: 1.25;
+  }
+  .animation {
+    padding: 24px 20px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .title-advertisement {
     font-size: 59px;
     line-height: 1.08;
   }
