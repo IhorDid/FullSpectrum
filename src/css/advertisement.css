@@ -4,6 +4,7 @@
 }
 
 .container-advertisement {
+  overflow: hidden;
   font-size: 34px;
   text-transform: uppercase;
   color: #bea69e;
@@ -15,7 +16,6 @@
 
 .title-advertisement {
   display: flex;
-  overflow: hidden;
 }
 .animation {
   flex-shrink: 0;
