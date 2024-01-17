@@ -59,46 +59,7 @@
     line-height: 1.08;
   }
 } */
-body {
-  font-family: 'DM Sans', sans-serif;
-  background-color: #121212;
-  color: #fff;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-}
 
-a {
-  text-decoration: none;
-  color: currentColor;
-  display: block;
-}
-img {
-  display: block;
-}
-button {
-  padding: 0;
-  border: none;
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.container {
-  min-width: 100%;
-  max-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 .advertisement {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
