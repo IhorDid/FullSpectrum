@@ -10,7 +10,7 @@ html {
     url('../fonts/DMSans-Bold.woff') format('woff'),
     url('../fonts/DMSans-Bold.ttf') format('truetype'),
     url('../fonts/DMSans-Bold.svg#svgFontName') format('svg');
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @font-face {
@@ -21,7 +21,7 @@ html {
     url('../fonts/DMSans-Medium.woff') format('woff'),
     url('../fonts/DMSans-Medium.ttf') format('truetype'),
     url('../fonts/DMSans-Medium.svg#svgFontName') format('svg');
-  font-weight: medium;
+  font-weight: 500;
 }
 
 @font-face {
@@ -32,7 +32,7 @@ html {
     url('../fonts/DMSans-Regular.woff') format('woff'),
     url('../fonts/DMSans-Regular.ttf') format('truetype'),
     url('../fonts/DMSans-Regular.svg#svgFontName') format('svg');
-  font-weight: normal;
+  font-weight: 400;
 }
 
 body {
