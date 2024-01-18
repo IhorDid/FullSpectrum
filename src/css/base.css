@@ -11,6 +11,7 @@ html {
     url('../fonts/DMSans-Bold.ttf') format('truetype'),
     url('../fonts/DMSans-Bold.svg#svgFontName') format('svg');
   font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
@@ -22,6 +23,7 @@ html {
     url('../fonts/DMSans-Medium.ttf') format('truetype'),
     url('../fonts/DMSans-Medium.svg#svgFontName') format('svg');
   font-weight: 500;
+  font-display: swap;
 }
 
 @font-face {
@@ -33,6 +35,7 @@ html {
     url('../fonts/DMSans-Regular.ttf') format('truetype'),
     url('../fonts/DMSans-Regular.svg#svgFontName') format('svg');
   font-weight: 400;
+  font-display: swap;
 }
 
 body {
