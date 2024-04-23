@@ -46,9 +46,6 @@
   }
 }
 
-.container {
-}
-
 .logo {
   margin-right: auto;
 
@@ -104,9 +101,6 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link {
-}
-
 .mobile-sign-link {
   display: flex;
 
@@ -145,11 +139,6 @@
 
   justify-content: center;
   align-items: center;
-}
-
-@media only screen and (min-width: 768px) {
-  .menu-open-btn {
-  }
 }
 
 @media only screen and (min-width: 1280px) {
